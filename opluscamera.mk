@@ -10,6 +10,9 @@ PRODUCT_BOOT_JARS += \
     oplus-fwk \
     oplus-support-wrapper
 
+# Frameworks
+TARGET_CAMERA_PACKAGE_NAME := com.oplus.packageName
+
 # Init
 PRODUCT_PACKAGES += \
     init.oplus.camera.rc
